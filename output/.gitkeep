@@ -1,0 +1,3 @@
+This directory is the destination for notebook outputs.
+It is intentionally empty; running the notebooks will populate it with
+*.csv result tables and *.png figures (see README for run order).

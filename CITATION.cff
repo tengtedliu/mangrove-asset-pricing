@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "Private Value of Mangrove Coastal Protection Benefits"
+message: "If you use this code or data, please cite the manuscript."
+type: article
+authors:
+  - family-names: Liu
+    given-names: Teng
+    affiliation: "University of California, Santa Cruz"
+    email: teng.ted.liu@gmail.com
+  - family-names: Beck
+    given-names: Michael
+    affiliation: "University of California, Santa Cruz"
+  - family-names: Constantz
+    given-names: Brook
+    affiliation: "University of California, Santa Cruz"
+  - family-names: Reguero
+    given-names: Borja
+    affiliation: "University of California, Santa Cruz"
+  - family-names: Hale
+    given-names: Galina
+    affiliation: "University of California, Santa Cruz; NBER; CEPR"
+    email: gbhale@ucsc.edu
+abstract: >-
+  Coastal mangrove forests provide flood protection, yet their economic value
+  remains uncertain because traditional engineering-based damage avoidance
+  methods may not reflect how private markets actually value these benefits
+  during rare disaster events. We develop a valuation framework comparing
+  engineering estimates with market-based assessments derived from
+  consumption-based asset pricing theory. Using catastrophe risk modeling
+  across seven coastal Florida counties, we simulate impacts under four storm
+  return periods with and without mangroves. Our market-based approach applies
+  a stochastic discount factor calibrated to disaster consumption shocks,
+  reflecting households' elevated marginal utility during floods.
+keywords:
+  - mangroves
+  - coastal protection
+  - asset pricing
+  - flood damages
+  - ecosystem services
+date-released: 2026-04-27
