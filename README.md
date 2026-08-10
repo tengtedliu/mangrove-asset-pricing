@@ -9,7 +9,7 @@ The analysis values mangrove flood-protection benefits in seven coastal Florida 
 | Notebook | Role |
 |---|---|
 | `main.ipynb` | Main analysis. Reads damage tables and the building sample, computes engineering and market-based NPV of protection benefits per county and return period, writes most files in `output/`. |
-| `figures.ipynb` | Generates publication figures from the result CSVs. |
+| `figures.ipynb` | Generates the **non-map** publication figures (chart-style plots — e.g., the loss-parameter and storm-timeline charts) from the result CSVs. County *map* figures are produced separately by `maps/` (see "Map figures" below). |
 | `robustness.ipynb` | Value-weighted variants of the main analysis; writes the `*_valueweighted.csv` outputs. |
 | `rentalyield.ipynb` | Standalone calibration of the housing service-flow yield (δ) from FRED PCE series. Output: a single number used downstream. |
 
