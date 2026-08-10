@@ -13,6 +13,28 @@ The analysis values mangrove flood-protection benefits in seven coastal Florida 
 | `robustness.ipynb` | Value-weighted variants of the main analysis; writes the `*_valueweighted.csv` outputs. |
 | `rentalyield.ipynb` | Standalone calibration of the housing service-flow yield (δ) from FRED PCE series. Output: a single number used downstream. |
 
+## Map figures
+
+`maps/make_paper_figures.py` renders the county map figures used in the
+manuscript — main-text Figure 4 and the two SI map figures — from the
+notebook outputs. Run after `main.ipynb`:
+
+```
+python maps/make_paper_figures.py
+```
+
+Each figure is written to `output/` as PDF and PNG, in a titled version and
+a `_lettersonly` version (panel descriptions are provided in the manuscript
+captions). The script also writes `output/county_AEB_NPV_RP1anchor.csv`,
+the per-county annual expected benefit and present value table underlying
+the SI figure.
+
+County geometry comes from `data/FL_counties_coastclipped_cb2023.gpkg`
+(U.S. Census cartographic boundaries, clipped to the shoreline). Hillshade
+terrain tiles (public domain) are downloaded and cached under
+`output/basemap_cache/` on first run. Requires `geopandas`, `shapely`, and
+`Pillow` (see `requirements.txt`).
+
 ## Citation
 
 See [`CITATION.cff`](./CITATION.cff). The canonical reference is:
