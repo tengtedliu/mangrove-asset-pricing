@@ -1,6 +1,6 @@
 # mangrove-asset-pricing
 
-Replication code and data for **"Private Value of Mangrove Coastal Protection Benefits"** (Liu, Beck, Constantz, Reguero, and Hale, 2026).
+Replication code and data for **"Private Value of Mangrove Coastal Protection Benefits"** (Liu, Beck, Constantz, Reguero, Gutiérrez-Barceló, and Hale, 2026).
 
 The analysis values mangrove flood-protection benefits in seven coastal Florida counties using two complementary approaches: an engineering avoided-damages calculation and a consumption-based asset-pricing valuation calibrated to housing-market responses to major hurricanes.
 
@@ -17,7 +17,7 @@ The analysis values mangrove flood-protection benefits in seven coastal Florida 
 
 See [`CITATION.cff`](./CITATION.cff). The canonical reference is:
 
-> Liu, T., Beck, M., Constantz, B., Reguero, B., & Hale, G. (2026). *Private Value of Mangrove Coastal Protection Benefits*. 
+> Liu, T., Beck, M., Constantz, B., Reguero, B., Gutiérrez-Barceló, D., & Hale, G. (2026). *Private Value of Mangrove Coastal Protection Benefits*. 
 
 ## Contact
 
