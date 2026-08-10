@@ -7,3 +7,6 @@ matplotlib>=3.7
 seaborn>=0.12
 requests>=2.31      # FRED API client in rentalyield.ipynb
 jupyter>=1.0        # to run the notebooks locally
+geopandas>=0.14     # county map figures (maps/)
+shapely>=2.0        # county map figures (maps/)
+Pillow>=10.0        # terrain-tile decoding for the map hillshade
